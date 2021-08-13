@@ -8,7 +8,7 @@ const Rdv_card_Client = ({ el }) => {
   const rdvProfile = useSelector((state) => state.rdvReducer.result);
   console.log(el);
   return (
-    <div>
+    <div className='card-shadow2'>
       <div className="ui cards mx-2 my-2">
         <div className="card">
           <div className="content">

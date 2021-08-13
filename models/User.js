@@ -10,7 +10,9 @@ const userShema = new Schema({
   adress: { type: Array  },
   ville: { type: String ,required:true}, 
   profession:{type:String,required:true},
-  isAdmin:{type:Boolean,default:false}
+  isAdmin:{type:Boolean,default:false},
+  image:{type:String},
+  Approved:{type:Boolean,default:false}
   
 });
 

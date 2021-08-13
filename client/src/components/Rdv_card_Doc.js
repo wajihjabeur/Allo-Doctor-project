@@ -15,7 +15,7 @@ const Rdv_card_Doc = ({el}) => {
         }
     
     return (
-        <div>
+        <div className='card-shadow2'>
             <div className="ui cards mx-2 my-2">
   <div className="card">
     <div className="content">

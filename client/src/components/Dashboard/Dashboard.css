@@ -1,14 +1,20 @@
 /* body{
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
 } */
-
+.dash{
+    background-image: url("../../backgr.jpg");
+    background-color: rgb(218 214 213);
+    background-repeat: no-repeat;
+}
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 0.5rem;
-    background: #fff;
-}
+    background-color: white;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+
+    }
 .profile-img{
     text-align: center;
     width: 350px;

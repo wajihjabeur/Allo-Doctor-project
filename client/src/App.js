@@ -21,6 +21,9 @@ import AdminDashboard from "./components/AdminDashboard";
 import AdminRoute from "./components/route/AdminRoute";
 import ReportForm from "./components/ReportForm";
 import AdminReport from "./components/AdminReport.js";
+import AdminClient from "./components/AdminClient";
+import AdminRdv from "./components/AdminRdv";
+import ScrollTop from './components/ScrollTop'
 // import { Navbar } from "react-bootstrap";
 function App() {
   const dispatch=useDispatch()
@@ -29,9 +32,9 @@ function App() {
   }, [])
   
   return (
-    <div className="App">
+    <div >
       <Navi/>
-      
+      <ScrollTop  />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path='/signup' component={Signup}/>
@@ -40,7 +43,9 @@ function App() {
         <Route path='/alldoctors' component={GetallDoctors}/>
         <Route path='/chat' component={Chat}/>
         <AdminRoute path='/admindashboard' component={AdminDashboard}/>
+        <AdminRoute path='/adminrdv' component={AdminRdv}/>
         <AdminRoute path='/adminreport' component={AdminReport}/>
+        <AdminRoute path='/adminclient' component={AdminClient}/>
         <PrivateRoute path="/dashboard" component={Dashboard} />
         <PrivateRoute path="/editprofile" component={FormProfile} />
         <PrivateRoute path="/rdvform" component={RdvForm} />

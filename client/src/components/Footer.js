@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
     return (
-        <div>
+        <div >
   {/* For demo purpose */}
   <div className="container-fluid flex-grow-1 flex-shrink-0">
     <div className="px-lg-5">

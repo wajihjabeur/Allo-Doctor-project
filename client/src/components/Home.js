@@ -16,6 +16,7 @@ import alodoc from "./alodoc.png";
 import firstimg from "./first-img.png";
 import secondimg from "./secondimg.png";
 import thirdimg from "./thirdimg.png";
+
 const Home = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -118,6 +119,7 @@ const Home = () => {
   };
   return (
     <div className="backApp">
+      
       <Container>
         <Container>
           <Row
@@ -149,6 +151,7 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+           
           }}
         >
           <Row
@@ -291,13 +294,15 @@ const Home = () => {
           <Col className="d-flex align-items-center">
             <div>
               <h3>Gagnez du temps, prenez rendez-vous avec vos praticiens</h3>
-              <p style={{
+              <p
+                style={{
                   fontFamily: "IBM Plex Sans,sans-serif",
                   color: "#4b597b",
                   fontSize: "20px",
                   fontWeight: "400",
                   lineHeight: "calc(24/16)",
-                }}>
+                }}
+              >
                 Si votre praticien a souscrit à une offre de prise de
                 rendez-vous en ligne (Allodocteur ou autre) vous pourrez
                 réserver votre créneau en quelques clics. S’il n’a pas souscrit
@@ -318,13 +323,15 @@ const Home = () => {
             <div>
               <h3>Faites appel à notre service de conciergerie</h3>
 
-              <p style={{
+              <p
+                style={{
                   fontFamily: "IBM Plex Sans,sans-serif",
                   color: "#4b597b",
                   fontSize: "20px",
                   fontWeight: "400",
                   lineHeight: "calc(24/16)",
-                }}>
+                }}
+              >
                 Si vous n’en avez pas le temps ou la possibilité, un opérateur
                 AlloDocteur peut se charger d’appeler les secrétariats et
                 prendre vos rendez-vous à votre place.
@@ -333,13 +340,15 @@ const Home = () => {
           </Col>
         </Row>
         <h4>Les praticiens témoignent</h4>
-        <p style={{
-                  fontFamily: "IBM Plex Sans,sans-serif",
-                  color: "#4b597b",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "calc(24/16)",
-                }}>
+        <p
+          style={{
+            fontFamily: "IBM Plex Sans,sans-serif",
+            color: "#4b597b",
+            fontSize: "20px",
+            fontWeight: "400",
+            lineHeight: "calc(24/16)",
+          }}
+        >
           Des praticiens présents sur AlloDocteur.fr témoignent sur le site.
         </p>
 
@@ -348,39 +357,47 @@ const Home = () => {
         </div>
         <img src="https://allodocteur.fr/media/img/illustration-faq.svg?h=b5809bdb5b9d1536b768e77e7a1b001d" />
         <h3>FAQ</h3>
-        <p style={{
-                  fontFamily: "IBM Plex Sans,sans-serif",
-                  color: "#4b597b",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "calc(24/16)",
-                }}>Une question sur Allodocteur ?</p>
+        <p
+          style={{
+            fontFamily: "IBM Plex Sans,sans-serif",
+            color: "#4b597b",
+            fontSize: "20px",
+            fontWeight: "400",
+            lineHeight: "calc(24/16)",
+          }}
+        >
+          Une question sur Allodocteur ?
+        </p>
         <div style={{ margin: "25px 70px" }}>
           <VerticalTab />
         </div>
 
         <div>
           <h1>A propos DOCTOLIB</h1>
-          <p style={{
-                  fontFamily: "IBM Plex Sans,sans-serif",
-                  color: "#4b597b",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "calc(24/16)",
-                }}>
+          <p
+            style={{
+              fontFamily: "IBM Plex Sans,sans-serif",
+              color: "#4b597b",
+              fontSize: "20px",
+              fontWeight: "400",
+              lineHeight: "calc(24/16)",
+            }}
+          >
             AlloDocteur s’est donné pour mission de faciliter l’accès aux soins
             des patients. Pour délivrer l’information la plus complète qui soit,
             nous proposons sur notre site l’annuaire public des professions
             médicales et paramédicales référencées sur les sites officiels.
           </p>
           <br />
-          <p style={{
-                  fontFamily: "IBM Plex Sans,sans-serif",
-                  color: "#4b597b",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "calc(24/16)",
-                }}>
+          <p
+            style={{
+              fontFamily: "IBM Plex Sans,sans-serif",
+              color: "#4b597b",
+              fontSize: "20px",
+              fontWeight: "400",
+              lineHeight: "calc(24/16)",
+            }}
+          >
             AlloDocteur.fr n'utilise pas vos données médicales à des fins autres
             que la prise de rendez-vous et celles-ci ne sont pas réutilisées
             dans le cadre d’autres projets.

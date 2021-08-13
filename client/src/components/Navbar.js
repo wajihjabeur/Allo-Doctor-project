@@ -128,7 +128,32 @@ export default function ButtonAppBar() {
                 style={{ color: "white", textDecoration: "none" }}
                 to={"/admindashboard"}
               >
-                All Users
+                All Doctors
+              </Link>
+            </Typography>
+          ) : null}
+
+
+{profilename && profilename.isAdmin ? (
+            <Typography variant="h5" className={classes.title}>
+              <Link
+                style={{ color: "white", textDecoration: "none" }}
+                to={"/adminclient"}
+              >
+                All Clients
+              </Link>
+            </Typography>
+          ) : null}
+
+
+
+{profilename && profilename.isAdmin ? (
+            <Typography variant="h5" className={classes.title}>
+              <Link
+                style={{ color: "white", textDecoration: "none" }}
+                to={"/adminrdv"}
+              >
+                All Rdv
               </Link>
             </Typography>
           ) : null}
